@@ -1,10 +1,159 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="index.css"
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapido - Bike Taxi Booking</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1 class="heading"> sample website</h1>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">rapido<span>.</span></h1>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#booking" class="nav-btn">Book a Ride</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">YOUR RIDE, YOUR WAY</p>
+            <h1>India's Favourite<br>
+                <span>Bike Taxi Service</span>
+            </h1>
+            <p class="description">
+                Fast, affordable and convenient rides.
+                Reach your destination safely with Rapido.
+            </p>
+
+            <a href="#booking" class="main-btn">Book Your Ride</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=900"
+                 alt="Motorcycle">
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="booking-content">
+            <h2>Book Your Ride</h2>
+            <p>Enter your pickup and drop location</p>
+
+            <form>
+                <input type="text" placeholder="📍 Enter Pickup Location">
+                <input type="text" placeholder="🏁 Enter Drop Location">
+                <select>
+                    <option>Select Ride Type</option>
+                    <option>Bike Taxi</option>
+                    <option>Auto</option>
+                    <option>Cab</option>
+                </select>
+                <button type="button">Find a Ride</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <p class="section-text">Choose your comfortable ride</p>
+
+        <div class="service-container">
+
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=500"
+                     alt="Bike Taxi">
+                <h3>Bike Taxi</h3>
+                <p>Quick and affordable rides for your daily travel.</p>
+                <a href="#booking">Book Now</a>
+            </div>
+
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=500"
+                     alt="Auto Ride">
+                <h3>Auto Ride</h3>
+                <p>Comfortable auto rides for short-distance travel.</p>
+                <a href="#booking">Book Now</a>
+            </div>
+
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=500"
+                     alt="Car Ride">
+                <h3>Cab Service</h3>
+                <p>Enjoy convenient rides with more comfort.</p>
+                <a href="#booking">Book Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800"
+                 alt="Travel">
+        </div>
+
+        <div class="about-content">
+            <h2>Why Choose Rapido?</h2>
+            <p>
+                Rapido makes everyday travelling simple and convenient.
+                Choose your ride, enter your destination and enjoy
+                a hassle-free journey.
+            </p>
+
+            <div class="features">
+                <p>✓ Affordable Rides</p>
+                <p>✓ Easy Booking Experience</p>
+                <p>✓ Convenient Travel</p>
+                <p>✓ Multiple Ride Options</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section class="offers" id="offers">
+        <h2>Special Offers</h2>
+        <p>Enjoy more rides at affordable prices!</p>
+
+        <div class="offer-box">
+            <h3>WELCOME OFFER</h3>
+            <h1>20% OFF</h1>
+            <p>On your first ride</p>
+            <a href="#booking">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2 class="footer-logo">rapido<span>.</span></h2>
+        <p>Your everyday travel partner.</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#offers">Offers</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Rapido Website Project | Designed using HTML & CSS
+        </p>
+    </footer>
+
 </body>
 </html>
